@@ -103,6 +103,7 @@ app.get("/health", (req, res) => {
     official_email: MY_EMAIL,
   });
 });
+module.exports=app;
 
 
 // const PORT = process.env.PORT || 3000;
@@ -110,3 +111,4 @@ app.get("/health", (req, res) => {
 //   console.log("Server running on port " + PORT);
 
 // });
+
